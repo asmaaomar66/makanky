@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    overflow: hidden;
+    margin: auto;
+}
+header{
+    margin-top: 0;
+    background: url("../img/our_team.jpg") center center fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.team{
+    height: 650px;
+    background: rgba(0,0,0,0.7)
+}
+header .container h1{
+     margin-top: 60px;
+    color: #FFF;
+    text-align: center;
+}
+header .member{
+    width: 25%;
+    float:left;
+    margin: 40PX auto;
+    text-align: center;
+    
+}
+header .member p span{
+    font-size: 30px;
+    color: #ecf0f1;
+    text-align: center;
+}
+header .member p{
+    font-size: 15px;
+    color: #8e44ad;
+    text-align: center;
+}
+

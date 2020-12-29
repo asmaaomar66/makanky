@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+   /* height: 5000px;*/
+}
+*{
+    box-sizing: border-box;
+        
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    margin-top: 0;
+    background: url("../img/Untitled-1.png") center center fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.head{
+    height: 600px;
+   /* background: rgba(0,0,0,0.7)*/
+}
+.head .container button{
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.head .container .btn-danger{
+    float: right;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+.head .container button i{
+    margin-right: 20px;
+    border: 1px ;
+    color: #fff;
+}
+.head .container a{
+    color: gray;
+}
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 50px; /* change it to desired width */
+    background-color:#a00b0b ; /* change to desired color */
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 15px;    /* if you want it vertically middle of the navbar. */
+    
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    height: 40px;        /* if you want it to take the full height of the bar */
+    line-height: 40px;    /* if you want it vertically middle of the navbar */
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.navigation-bar > a:hover{
+    text-decoration: none;
+    color: gray;
+    transition: all 1s;
+}
+.navigation-bar > a .active:hover {
+    border-bottom:50px solid #fff;
+}
+
+.features {
+    height: 500px;
+    margin: 50px auto;
+}
+
+.features h1{
+    color: red;
+    border-bottom: 2px solid #666;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+    width: 30%;
+}
+
+.features .container .feat{
+    
+    width: 33.3333333%;
+    float: right;
+    margin: 40px auto;
+    text-align: center;
+    color: #666;
+    transition: 1s all;
+    padding: 20px;
+}
+.features .container .feat p{
+    color: grey;
+}
+
+.features .container .feat i{
+    display: block;
+    margin: 20px auto;
+    transition: all 1s;
+}
+
+.feat:hover{
+    background: #95a5a6;
+    
+}
+
+.feat:hover i,.feat:hover h2,.feat:hover p:hover{
+    color:red;
+}
+/*.feat:hover i{
+    transform: scale(1.5,1.5);
+   -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5);
+        
+}*/
+.feat:hover i{
+    transform:scale(1.5,1.5) rotate(-360deg);
+   -webkit-transform:scale(1.5,1.5) rotate(-360deg);
+    -moz-transform:scale(1.5,1.5) rotate(-360deg);
+    -o-transform: scale(1.5,1.5) rotate(-360deg);
+    -ms-transform: scale(1.5,1.5) rotate(-360deg);
+        
+}
+.download{
+    height: 250px;
+}
+.download .container button{
+    background: #fff;
+    margin-left: 250px;
+    padding-right: 20px;
+    padding-left: 0;
+    height: 70px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+.download .container button i{
+    padding: 5px 5px;
+    color: #a00b0b;
+    margin-left:5px solid #a00b0b;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+.download .container a button{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-right: 20px;
+}
+.download .container span{
+    font-size: 20px;
+    color: red;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+/*.end-header{
+    margin: 0;
+ background-size: cover;
+    width: 100%;
+    background: url(../img/Untitled-2.png) center center fixed no-repeat; 
+}*/
+.end .container{
+    background-image: url(../img/Untitled-2.png) center center fixed no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.end .container img {
+    
+    width: 100% !important ;
+}
+
+.copy-right .id{
+    
+    color: #fff;
+    background-color:#d35400;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 0;
+    margin-left: 0;
+    }

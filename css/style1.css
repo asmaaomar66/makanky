@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta', sans-serif;
+    height: 5000px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    overflow: hidden;
+    margin: auto;
+}
+header{
+    margin-top: 0;
+    background: url("../img/our_team.jpg") center center fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.head{
+    height: 650px;
+    background: rgba(0,0,0,0.7)
+}
+header .container h1{
+     margin-top: 60px;
+    color: #FFF;
+    text-align: center;
+}
+header .feat{
+    width: 25%;
+    float: left;
+    margin: 40PX auto;
+    text-align: center;
+}
+header .feat h1{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+} 
+header .feat p{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+header .feat i{
+    margin: 20px auto;
+    display: block;
+    float: left;
+    color: white;
+}
+header #{
+    display: block;
+}
+.feat:hover i{
+    transform: scale(1.2,1.2)
+        -webkit-transform: scale(1.2,1.2);
+        -moz-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+        -o-transform: scale(1.2,1.2);
+
+}

@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    margin-top: 0;
+    background: url("../img/10.jpg") center center fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.amg{
+    height: 650px;
+    background: rgba(0,0,0,0.07)
+}
+ul{
+    list-style-type: none;
+    margin: 10px;
+   padding: 10px;
+    overflow: hidden;
+}
+ul li{
+        border-right: 1px solid #bbb;
+
+}
+ul li a{
+    display: block;
+    float: left;
+    color: chartreuse;
+    
+}
+ul li a:hover{
+    color:brown;
+    transition: 1s;
+}
+ul li .4{
+    text-decoration: underline;
+    display: block;
+    background: #f39c12;
+}
+.app span{
+    font: 30px;
+    color: darkred;
+    text-align: center;
+}
+.app p{
+    color: red;
+    font: 10px;
+}
